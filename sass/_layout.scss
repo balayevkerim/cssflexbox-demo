@@ -1,0 +1,61 @@
+.container{
+    max-width: 120rem;
+    margin: 8rem auto;
+    box-shadow:  0 2rem 6rem rgba($color: #000000, $alpha: .2);
+    background: #fff;
+}
+
+.header{
+font-size: 1.4rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+
+    display: flex;
+
+    .sidebar{
+ 
+    background: var( --color-grey-dark-1);
+        flex-basis: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .hotel-view{
+        flex: 1;
+       
+    }
+}
+
+.details{
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-3)
+    
+}
+
+.description{
+    flex: 0 0 60%;
+    background: #fff ;
+    margin-right: 4.5rem;
+    box-shadow: 0 1rem 4rem rgba($color: #000000, $alpha: .3);
+    font-size: 1.4rem;
+    font-family: inherit;
+    padding: 3rem;
+    color: var(--color-grey-dark-1);
+
+   
+
+}
+
+.user-reviews{
+    font-size: 1.4rem;
+    background: #fff;
+    flex: 1;
+    text-align: center ;
+}
